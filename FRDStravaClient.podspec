@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.requires_arc = true
   s.dependency "AFNetworking", "~> 2.0"
-  s.dependency "Mantle", "1.5.3"
+  s.dependency "Mantle", "~> 1.5.3"
 
 end
